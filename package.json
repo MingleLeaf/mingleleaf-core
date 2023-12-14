@@ -1,0 +1,25 @@
+{
+  "name": "mingleleaf-core",
+  "version": "0.0.1",
+  "description": "Core process for MingleLeaf App",
+  "main": "main.js",
+  "author": "Thomas Le Sciellour <thomas.lesciellour@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "@chainsafe/libp2p-gossipsub": "^10.1.0",
+    "@helia/ipns": "^2.0.3",
+    "@helia/unixfs": "^1.4.2",
+    "blockstore-fs": "^1.1.6",
+    "datastore-fs": "^9.1.5",
+    "file-type": "^18.6.0",
+    "helia": "^2.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "libp2p": "^0.46.21",
+    "parse-multipart-data": "^1.5.0",
+    "unzipper": "^0.10.14"
+  }
+}
